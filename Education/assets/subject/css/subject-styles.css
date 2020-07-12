@@ -1,0 +1,72 @@
+.subject {
+  background-image: url(../images/bckg.jpg);
+  background-size: cover;
+}
+
+.subject__shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.subject__body {
+  max-width: 1500px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 600px;
+  padding: 0 20px;
+}
+
+.subject__video-wrapper {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.subject__video {
+  background-image: url(../images/notebook-bckg.png);
+  background-size: cover;
+  min-width: 700px;
+  min-height: 411px;
+  position: relative;
+}
+
+.subject__iframe {
+  display: block;
+  width: 530px;
+  height: 330px;
+  position: absolute;
+  top: 30px;
+  left: 85px;
+}
+
+.subject__subject-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  margin: 50px auto 0 auto;
+}
+
+.subject__subject-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 9px;
+  border: 2px solid #fbaf41;
+  padding: 10px 15px;
+  text-align: center;
+  margin-right: 24px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.subject__subject-name:hover,
+.subject__subject-name_active {
+  border-color: #fbaf41;
+  background-color: #fbaf41;
+}
+
+.subject__subject-name:last-child {
+  margin-right: 0;
+}

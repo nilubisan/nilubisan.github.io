@@ -1,0 +1,36 @@
+.footer {
+  background-color: #f9b047;
+}
+.footer__container {
+  padding: 15px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__link-wrapper {
+  display: flex;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #707070;
+  font-size: 12px;
+  margin-right: 60px;
+}
+
+.footer__link:hover {
+  color: #a09f9f;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+}
+
+.footer__copyright {
+  display: block;
+  color: rgba(112, 112, 112, 0.5);
+  font-size: 11px;
+  margin-right: 0;
+}

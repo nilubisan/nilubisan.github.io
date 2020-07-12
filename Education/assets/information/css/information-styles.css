@@ -1,0 +1,85 @@
+.inform {
+  background-color: #3a3f44;
+}
+
+.inform__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 50px 20px 72px 20px;
+}
+
+.inform__links-inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  min-width: 70%;
+  padding-right: 10%;
+  border-right: 1px solid #7b7b7b;
+  line-height: 1.8;
+}
+
+.inform__contacts-list {
+  padding: 0;
+}
+
+.inform__block-list {
+  padding-left: 0;
+}
+
+.inform__block-item {
+  list-style-type: none;
+}
+
+.inform__block-item-link {
+  color: #bbbbbb;
+  text-decoration: none;
+  transition: linear color 0.2s;
+}
+
+.inform__block-item-link:hover {
+  color: #878787;
+}
+
+.inform__block-item-link_14px {
+  font-size: 14px;
+}
+
+.inform__block-item_darkgray {
+  color: #8a8a8a;
+}
+
+.inform__block-item_13px {
+  font-size: 13px;
+}
+
+.inform__contacts-inner {
+  display: flex;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.inform__brand-logo {
+  margin-bottom: 30px;
+}
+
+.inform__social-media {
+  margin-top: 30px;
+}
+
+.inform__social-media-link {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.inform__social-media-link:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.inform__social-media-link:last-child {
+  margin-right: 0;
+}

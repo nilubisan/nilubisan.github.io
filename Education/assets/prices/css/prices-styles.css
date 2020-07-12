@@ -1,0 +1,140 @@
+.prices {
+  padding: 100px 20px 115px 20px;
+  background-color: #fcfcfc;
+}
+
+.prices__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.prices__table {
+  white-space: nowrap;
+}
+
+.prices__row-container {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.prices__row-container:first-child {
+  margin-bottom: 25px;
+}
+
+.prices__row {
+  display: flex;
+  border-radius: 16px;
+  color: #646464;
+  font-size: 21px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.prices__row_orange {
+  background-color: #f9b047;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+.prices__cell {
+  padding: 20px 20px;
+}
+
+.prices__cell_min-width-217-167px {
+  min-width: 217px;
+  text-align: center;
+}
+
+.prices__cell_min-width-105-65px {
+  min-width: 105px;
+}
+
+.prices__cell:first-child {
+  padding-left: 40px;
+}
+
+.prices__cell:last-child {
+  padding-right: 40px;
+}
+
+.prices__row_light-gray {
+  background-color: #ececec;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.prices__row_gray {
+  background-color: #dcdcdc;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.prices__buy-cell {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 20px 40px;
+  cursor: pointer;
+  text-align: center;
+  transition: linear background-color 0.2s;
+}
+
+.prices__buy-cell:hover {
+  background-color: #00685a;
+}
+
+.prices__buy-cell_shade-1 {
+  background-color: #5abfab;
+}
+
+.prices__buy-cell_shade-2 {
+  background-color: #56ae9c;
+}
+
+.prices__buy-cell_shade-3 {
+  background-color: #42aa94;
+}
+
+.prices__buy-cell_shade-4 {
+  background-color: #379d88;
+}
+
+.prices__buy-cell_shade-5 {
+  background-color: #298572;
+}
+
+.prices__buy-cell_white {
+  color: #f9b047;
+  font-size: 17px;
+  max-width: 170px;
+  cursor: default;
+}
+
+.prices__buy-cell_white:hover {
+  background-color: #fff !important;
+}
+
+.prices__text {
+  max-width: 250px;
+  font-size: 16px;
+  color: #646464;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.prices__title-styles {
+  display: none;
+}
+
+.prices__link-to-pdf {
+  display: none;
+}
