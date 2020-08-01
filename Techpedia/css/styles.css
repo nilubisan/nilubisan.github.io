@@ -269,7 +269,7 @@ hr {
     z-index: 3;
     padding-top: 70px;
     top: 0;
-    left: -100vw;
+    left: -1000vw;
     background-color: #a7a8a5;
     transition: all 0.5s ease 0s;
   }
