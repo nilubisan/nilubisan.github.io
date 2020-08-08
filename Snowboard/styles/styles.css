@@ -426,6 +426,7 @@ body {
   }
   .subscribe__email,
   .subscribe__submit {
+    margin: 0 auto
     padding: 10px;
   }
 
