@@ -429,13 +429,16 @@ body {
     margin: 0 auto;
     padding: 10px;
   }
+  
+  .footer__subscribe {
+    text-align: center;
+  }
 
   .subscribe__email, .subscribe__submit {
     width: 200px;
   }
 
   .subscribe__submit {
-    display: block;
     margin-left: 0px;
     margin-top: 1px;
     padding: 8px;
