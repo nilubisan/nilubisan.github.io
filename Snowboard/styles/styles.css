@@ -587,7 +587,7 @@ body {
   }
 
   .footer__list-item {
-    margin: 0 auto;
+    margin: 0 auto 19px auto;
     text-align: center;
     max-width: 300px;
     font-size: 13px;
